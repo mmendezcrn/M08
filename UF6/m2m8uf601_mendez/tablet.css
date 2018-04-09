@@ -1,0 +1,91 @@
+@media screen and (min-width:481px) {
+
+  body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+  #cap {
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  #cap ul li {
+    color: white;
+    display: inline;
+    margin: 0 10px;
+    text-align: center;
+    border: solid 1px white;
+    padding: 3px;
+  }
+
+  #cos {
+    padding-top: 90px;
+    background-color: cyan;
+    width: 60%;
+    float: left;
+    overflow: hidden;
+  }
+
+  #cos ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #cos ul li {
+    margin: 10px 13px;
+    text-align: center;
+    display: block;
+    background-color: orange;
+  }
+
+  #menu {
+    margin: 0;
+    background-color: orange;
+    width: 40%;
+    float: left;
+    margin-top: 85px;
+
+  }
+
+  #menu ul {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #menu ul li {
+    color: black;
+    margin: 15px 13px;
+    text-align: center;
+    border: solid 3px black;
+    display: block;
+    padding: 10px 0 60px 0;
+    background-color: cyan;
+  }
+
+  #peu {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  #peu ul li {
+    color: white;
+    display: block;
+    text-align: center;
+  }
+}

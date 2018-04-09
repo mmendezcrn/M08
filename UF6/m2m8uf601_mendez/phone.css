@@ -1,0 +1,91 @@
+@media screen and (max-width:480px) {
+
+  body{
+    background-color: green;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+  #cap {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  #cap ul li {
+    color: white;
+    display: inline;
+    margin: 0 10px;
+    text-align: center;
+    border: solid 1px white;
+    padding: 3px;
+  }
+
+  #cos {
+    margin: 0;
+    padding: 90px 10px 10px 10px;
+    background-color: grey;
+  }
+
+  #cos ul {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #cos ul li {
+    color: black;
+    margin: 15px 13px;
+    text-align: center;
+    border: solid 3px black;
+    display: block;
+    padding: 10px 0 60px 0;
+    background-color: yellow;
+  }
+
+  #menu {
+    margin: 0;
+    padding: 10px;
+    background-color: yellow;
+  }
+
+  #menu ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #menu ul li {
+    color: black;
+    margin: 15px 13px;
+    text-align: center;
+    border: solid 3px black;
+    display: block;
+    padding: 10px 0 60px 0;
+    background-color: grey;
+  }
+
+  #peu {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  #peu ul li {
+    color: white;
+    display: block;
+    text-align: center;
+  }
+}
